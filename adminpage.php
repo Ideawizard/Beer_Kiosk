@@ -13,7 +13,12 @@ if(isset($_REQUEST["name"])){
 }
 ?>
 <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-    <label for="inputName">Name:</label>
+    <label for="inputName">Username</label>
+    <input type="text" name="name" id="inputName">
+</form>
+
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+    <label for="inputName">Password</label>
     <input type="text" name="name" id="inputName">
     <input type="submit" value="Submit">
 </form>
@@ -21,7 +26,7 @@ if(isset($_REQUEST["name"])){
 
 <footer>
 
-  <a href="adminpage.php">admin page</a>
+  <a href="index.php">home</a>
 
 </footer>
 </html>
