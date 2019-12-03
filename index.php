@@ -22,21 +22,21 @@ if(isset($_REQUEST["name"])){
     <input type="submit" value="Submit">
 </form>
 
-<div>
+<div class="accoridon">
 
-  <button class="accordion">Section 1</button>
+  <button class="accordion">Special 1</button>
  <div class="panel">
-   <p>Lorem ipsum...</p>
+   <p>Our special for today</p>
  </div>
 
- <button class="accordion">Section 2</button>
+ <button class="accordion">Special 2</button>
  <div class="panel">
-   <p>Lorem ipsum...</p>
+   <p>Our special from yesterday.</p>
  </div>
 
- <button class="accordion">Section 3</button>
+ <button class="accordion">Special 3</button>
  <div class="panel">
-   <p>Lorem ipsum...</p>
+   <p>Our special the day before</p>
  </div>
 
 </div>
