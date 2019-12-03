@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<link href="style.css" rel="stylesheet">
+<script type="text/javascript" src="AccordionJS.js"></script>
+
 <head>
     <title>Beer Kiosk</title>
     <h1> Beer Kiosk </h1>
@@ -17,6 +21,25 @@ if(isset($_REQUEST["name"])){
     <input type="text" name="name" id="inputName">
     <input type="submit" value="Submit">
 </form>
+
+<div>
+
+  <button class="accordion">Section 1</button>
+ <div class="panel">
+   <p>Lorem ipsum...</p>
+ </div>
+
+ <button class="accordion">Section 2</button>
+ <div class="panel">
+   <p>Lorem ipsum...</p>
+ </div>
+
+ <button class="accordion">Section 3</button>
+ <div class="panel">
+   <p>Lorem ipsum...</p>
+ </div>
+
+</div>
 </body>
 
 <footer>
