@@ -7,7 +7,7 @@ Business Analyst: Dipal Patel
 
 Lead Developer: Brian Bosch
 
-Assisting Developer: Sharad Patel
+Assisting QA: Sharad Patel
 
 UX Designer/Developer: Timothy Ryan Scully
 
